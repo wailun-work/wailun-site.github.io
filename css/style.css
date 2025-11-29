@@ -354,6 +354,10 @@
 
 
     @media only screen and (max-width: 425px) {
+      .font-helvetica{
+        font-size:13px;
+      }
+      
        .slide1{
         max-width: 95%;
         bottom: 110px;
@@ -361,5 +365,17 @@
 
       .slide2{
         bottom: 110px;
+      }
+
+      .caption{
+        gap:20px;
+      }
+      
+      .font-times{
+        font-size:14px;
+      }
+
+      .image-caption{
+        font-size:13px; 
       }
     }
